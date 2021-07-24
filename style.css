@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    font-family: 'poppins',sans-serif;
+}
+/* header image */
+#body-header{
+    height: 65vh;
+    /* opacity: 90%; */
+    background-image: url(image/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+/* Horizontal lists */
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    
+}
+/* this for navigatin bar transition */
+.horizontal-list li{
+    display: inline-block;
+    text-decoration: none;
+    color: ivory;
+    transition: color 0.4s,border-bottom 4s;
+    margin: 0px 10px 10px 0px;      
+}
+.horizontal-list  a{
+    text-decoration: none;
+}
+.center-align{
+    text-align: center;
+}
+.horizontal-list li:hover{
+color: lightgray;
+border-bottom: 1px solid white;
+margin-bottom: 0px;
+}
+/* this is for social media icons */
+#social ul{
+    list-style: none;
+   text-align: center;
+   margin-left: -3vw;   
+  
+}
+ #social ul a {
+    display: inline-block;
+}
+#social li i{
+    padding: 5px;
+    margin-top: -7px;
+    border-radius: 50%;
+}
+#social li i:hover{
+    box-shadow:0px 0px 10px 0px rgba(255, 255, 255, 0.603);
+}
+
+
+/* this is for about section */
+
+
+#About{
+    height: auto;
+    width: 100%;
+}
+#dp{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -16vh;
+}
+#dp img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid white;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.651);
+    border-radius: 50%;
+}
+#me{
+   width: 65%;
+   height: 50%;
+   margin: auto;
+}
+/* #me p{
+    height: 100%;
+    width: 100%;
+} */
+/* this is for skill section */
+#parent img{
+    height: 6rem;
+    border-radius: 50%;
+    width: 6rem;
+    box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.356);
+    margin-bottom: 1rem;
+}
+#Skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#parent{
+    width:70%; 
+    /* max-width: 35rem; */
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.max{
+    font-size: 3rem;
+}
+/* this is for footer */
+
+footer{
+    
+    height:auto;
+    width: 100%;
+    background-image: linear-gradient(45deg,#FF512F,#F09819);
+}
+#contact input[type="text"]{
+    background-color: transparent;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
+#contact input[type="submit"]{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: rgb(248, 241, 241);
+    border-radius: 3px;
+    font-size: 1.2rem;
+    padding: 2px 6px ;
+    margin-left: 30%;
+   
+}
+input:focus{
+    outline: none;
+    
+}
+::placeholder{
+    color: white;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+#contact{
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#contact-form{
+    margin-top: 5%;
+    height: auto;
+    width: 200px;
+}
+#contact-about{
+    color: white;
+    height: auto;
+    width: 300px;
+}
+
+#contact input{
+    margin-bottom: 2.5rem;
+}
+#foot-social a{
+    margin: 15px;
+    text-decoration: none;
+    
+}
+#contact-about span{
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+
+/* this is for education section */
+#Education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#timeline{
+    position: relative;
+    width: 75vw;
+    height: 90vh;
+    /* border: 2px solid black; */
+}
+.timeline-stop{
+  position: relative;
+   top: 5%;
+  left: 5%;
+  height: 30%;
+  width: 35%;
+  /* border: 2px solid black; */
+}
+.timeline-stop:nth-child(2n){
+    left: 60%;
+}
+#timeline-divider{
+    position: absolute;
+    height: 80%;
+    width: 0;
+    left: 48%;
+    top :10%;
+    border: 3px dashed rgb(143, 139, 139);
+}
+#timeline-rider i{
+    position: sticky;
+    color: rgb(0, 0, 0);  
+    font-size: 2.5rem;
+    top: 20%;
+    transform: rotate(90deg);
+    z-index: 2;
+}
+.flag1{
+    position: absolute;
+    top: 25%;
+    font-size: 130%;
+    color: rgb(11, 11, 95);
+    left: 110%;
+}
+.flag{
+    position: absolute;
+    color: rgb(11, 11, 95);
+    transform: rotateY(180deg);
+    left: -18%;
+    top: 34%;
+    font-size: 130%;
+
+}
+.timeline-stop span{
+    text-align: right;
+    color: darkblue;
+}
+
+/* THIS IS FOR THE PHOTO GALLERY */
+.horizontal-pic{
+    height: 200px;
+    width:250px;
+}
+.vertical-pic{
+    height: 250px;
+    width: 200px;
+}
+#photos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pic{
+    width: 70vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ #pic img:nth-child(2n-1){
+    transform: rotate(20deg);
+    box-shadow: 4px 6px 20px 2px;
+}
+#pic img:nth-child(2n){
+    transform: rotate(-30deg);
+    box-shadow: 6px 4px 20px 3px;
+}
+
+/* this is for moving test */
+#about{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* min-height: 100vh; */
+    height: 40%;
+    background-color: white;
+}
+/* .wrapper{
+  display: inline-flex;
+} */
+.static-txt{
+    font-size: 80px;
+    font-weight: 400;
+    color: black;
+}
+.dynamic-txts{
+ margin-top: 1rem;
+ margin-left: 15px;
+ line-height: 70px;
+ height: 70px;
+ /* background: red; */
+ overflow: hidden;
+}
+ul li{
+    margin-bottom: 3rem;
+}
+.dynamic-txts li{
+    list-style: none;
+ 
+    color: red;
+    list-style: none;
+    font-size: 70px;
+    font-weight: 500; 
+     top: 0; 
+     position: relative; 
+     animation:slide 20s steps(5) infinite; 
+}
+@keyframes slide{
+    100%{
+       top: -37rem;
+    }
+}
+.dynamic-txts li span{
+    position: relative;
+}
+
+.dynamic-txts li span::after{
+    left: 0;
+    content:"";
+    position: absolute;
+    background-color:white;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #000000;
+    animation:typing 4s steps(20) infinite; 
+}
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -20px 0 20px;
+    }
+} 
+
