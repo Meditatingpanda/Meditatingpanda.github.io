@@ -27,7 +27,7 @@ body{
 .horizontal-list li{
     display: inline-block;
     text-decoration: none;
-    color: ivory;
+    color: white;
     transition: color 0.4s,border-bottom 4s;
     margin: 0px 10px 10px 0px;      
 }
