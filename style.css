@@ -356,9 +356,12 @@ ul li{
         height: 0;
         width: 0;
         overflow: hidden;
-      
+        
     }
-    
+   #top-name{
+       margin-top: 30%;
+   }
+
 }
 #back{
     /* display: inline-block; */
@@ -378,7 +381,7 @@ ul li{
 }
 #nav-new a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 #nav-new:target{
          z-index: 3;
@@ -401,4 +404,12 @@ ul li{
 }
 #nav-new span{
     margin-bottom: 5%;
+}
+
+
+#top-name h1{
+    color: white; font-size: 2rem; margin-top: 3rem; margin-bottom: -1rem;
+}
+#top-name h3{
+    color: white; margin-bottom: -0.5rem;
 }
