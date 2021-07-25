@@ -5,6 +5,7 @@ html{
 body{
     margin: 0px;
     font-family: 'poppins',sans-serif;
+   
 }
 /* header image */
 #body-header{
@@ -15,6 +16,7 @@ body{
     background-position: center;
     background-size: cover;
     background-attachment: fixed; 
+   /* filter: blur(10px); */
 }
 /* Horizontal lists */
 .horizontal-list{
@@ -230,7 +232,7 @@ footer{
     top: 25%;
     font-size: 130%;
     color: rgb(11, 11, 95);
-    left: 110%;
+    left: 105%;
 }
 .flag{
     position: absolute;
@@ -340,4 +342,61 @@ ul li{
         margin: 0 -20px 0 20px;
     }
 } 
+/* new navigation bar */
+@media screen and (min-width:550px){
+    #back{
+        height: 0;
+        width: 0;
+        overflow: hidden;
+    }
+}
 
+@media screen and (max-width:550px) {
+    nav{
+        height: 0;
+        width: 0;
+        overflow: hidden;
+      
+    }
+}
+#back{
+    /* display: inline-block; */
+    z-index: 4;
+    font-size: 2rem;
+    position:fixed;
+    left: 3%;
+     top: 2%; 
+    /* left: 80%;  */
+}
+#nav-new{
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+   
+}
+#nav-new a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#nav-new:target{
+         z-index: 3;
+         position: fixed;
+         height: 100%;
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         /* margin-top: 4%; */
+         font-size: 2rem;
+        backdrop-filter: blur(10px);
+        transition: 1.5s;
+    
+}
+#nav-new i{
+    left: 80%;
+}
+#nav-new span{
+    margin-bottom: 5%;
+}
