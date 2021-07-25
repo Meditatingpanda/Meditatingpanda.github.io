@@ -358,6 +358,7 @@ ul li{
         overflow: hidden;
       
     }
+    
 }
 #back{
     /* display: inline-block; */
@@ -390,6 +391,7 @@ ul li{
          justify-content: center;
          /* margin-top: 4%; */
          font-size: 2rem;
+         font-weight: 500;
         backdrop-filter: blur(10px);
         transition: 1.5s;
     
