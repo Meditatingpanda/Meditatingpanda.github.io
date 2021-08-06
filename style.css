@@ -97,6 +97,7 @@ margin-bottom: 0px;
     margin: 0%;
     padding: 0%;
     font-size: 2rem;
+    /* text-shadow: 0px 3px 1px black; */
     color: black;
 
 }
@@ -203,7 +204,7 @@ footer{
 }
 #timeline{
     position: relative;
-    width: 75vw;
+    width: 90vw;
     height: 90vh;
     /* border: 2px solid black; */
 }
@@ -236,7 +237,7 @@ footer{
 }
 .flag1{
     position: absolute;
-    top: 25%;
+    top: 15%;
     font-size: 130%;
     color: rgb(11, 11, 95);
     left: 105%;
@@ -246,7 +247,7 @@ footer{
     color: rgb(11, 11, 95);
     transform: rotateY(180deg);
     left: -18%;
-    top: 34%;
+    top: 20%;
     font-size: 130%;
 
 }
