@@ -80,8 +80,8 @@ margin-bottom: 0px;
 #dp img{
     height: 100%;
     width: 100%;
-    border: 2px solid white;
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.651);
+    border: 4px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.651);
     border-radius: 50%;
 }
 #me{
@@ -373,9 +373,10 @@ ul li{
     /* left: 80%;  */
 }
 #nav-new{
-    position: absolute;
+    /* position: absolute; */
     height: 0;
     width: 0;
+    /* margin: auto; */
     overflow: hidden;
    
 }
@@ -397,8 +398,12 @@ ul li{
          font-weight: 500;
         backdrop-filter: blur(10px);
         transition: 1.5s;
+       
     
 }
+
+
+
 #nav-new i{
     left: 80%;
 }
@@ -413,3 +418,4 @@ ul li{
 #top-name h3{
     color: white; margin-bottom: -0.5rem;
 }
+
