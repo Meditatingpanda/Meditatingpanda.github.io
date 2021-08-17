@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+    padding: 0;
+   
+}
+nav{
+    background-color: #212336;
+    display: flex;
+    justify-content:space-between;
+  
+}
+nav span{
+    font-size: 2rem;
+    color: #FE4956;
+    margin-right: 5%;
+}
+nav a{
+    text-decoration: none;
+}
+nav  li{
+    list-style: none;
+    font-size: 1.1rem;
+    padding: 3px;
+    display: inline-block;
+    color: white;
+}
+header{
+    
+    height: auto;
+    background-color:  #23263A;
+    position: relative;
+}
+#about{
+    width: 50vw;
+    font-size: 3rem;
+    margin-left: 10%;
+}
+#about div{
+    padding: 2%;
+    width: 50%;
+    font-size: 1.5rem;
+    background-color: #FE4956;
+}
+
+canvas {
+    display: block;
+    /* vertical-align: bottom; */
+  }
+  /* ---- tsparticles container ---- */
+  #tsparticles {
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+  #code{
+      height: 500px;
+      width: 650px;
+      margin-top: 10%;
+     
+  }
+  #all{
+      display: flex;
+  }

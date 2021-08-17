@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/fdd8d8dd49.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="lottie.js"></script>
+  </head>
+
+  <body>
+    <div id="tsparticles"></div>
+
+    <div id="particles-js">
+      <header>
+        <nav>
+          <ul>
+            <a href=""><li>Home</li></a>
+            <a href=""><li>Services</li></a>
+            <a href=""><li>About</li></a>
+            <a href=""><li>Skills</li></a>
+            <a href=""><li>Portfolio</li></a>
+            <a href=""><li>Contact</li></a>
+          </ul>
+          <span><i class="fas fa-yin-yang"></i>Travelling Monk</span>
+        </nav>
+        <div id="all">
+          <section id="about">
+            <h1 style="color: white">Hello,I'm a Front End developer</h1>
+            <span
+              style="font-size: 1.2rem; color: white"
+              class="animate"
+            ></span>
+            <div>Be A part of My journey</div>
+          </section>
+          <section id="code">
+            <div id="codingAnimation"></div>
+            <script src="coding.js"></script>
+          </section>
+        </div>
+      </header>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/pathseg@1.2.0/pathseg.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.29.2/dist/tsparticles.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="typed.js"></script>
+
+    <script>
+      var typed = new Typed(".animate", {
+        strings: [
+          "I am a Tall boy with deep voice and messy hair xd",
+        ],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
