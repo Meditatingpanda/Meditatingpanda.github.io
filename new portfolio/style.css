@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     font-family: 'poppins',sans-serif;
@@ -9,6 +12,7 @@ nav{
     background-color: #212336;
     display: flex;
     justify-content:space-between;
+    flex-direction: row-reverse;
   
 }
 nav span{
@@ -27,7 +31,7 @@ nav  li{
     color: white;
 }
 header{
-    
+    width: auto;
     height: auto;
     background-color:  #23263A;
     position: relative;
@@ -49,13 +53,13 @@ canvas {
     /* vertical-align: bottom; */
   }
   /* ---- tsparticles container ---- */
-  #tsparticles {
+  /* #tsparticles {
     position: absolute;
     
     width: 100%;
     height: 100%;
     z-index: 10;
-  }
+  } */
   #code{
       height: 500px;
       width: 650px;
@@ -65,3 +69,20 @@ canvas {
   #all{
       display: flex;
   }
+  #particles-js{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+  /* .popup:hover{
+      animation: pop 0.5s ease-in-out forwards;
+  }
+  @keyframes pop{
+      0%{
+          transform: scale(0);
+      }
+      100%{
+          transform: scale(1.2);
+      }
+  } */

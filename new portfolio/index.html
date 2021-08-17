@@ -7,12 +7,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="lottie.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-
   <body>
-    <div id="tsparticles"></div>
-
-    <div id="particles-js">
+    <!-- <div id="tsparticles"></div> -->
+    <div id="particles-js"></div>
       <header>
         <nav>
           <ul>
@@ -32,7 +31,7 @@
               style="font-size: 1.2rem; color: white"
               class="animate"
             ></span>
-            <div>Be A part of My journey</div>
+            <div class="popup">Be A part of My journey</div>
           </section>
           <section id="code">
             <div id="codingAnimation"></div>
@@ -40,13 +39,12 @@
           </section>
         </div>
       </header>
-    </div>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/pathseg@1.2.0/pathseg.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.29.2/dist/tsparticles.min.js"></script>
     <script src="./script.js"></script>
     <script src="typed.js"></script>
-
     <script>
       var typed = new Typed(".animate", {
         strings: [
@@ -57,5 +55,7 @@
         loop: true,
       });
     </script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
