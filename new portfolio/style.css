@@ -37,14 +37,14 @@ header{
     position: relative;
 }
 #about{
-    width: 50vw;
-    font-size: 3rem;
+    width: 60vw;
+    font-size: 2rem;
     margin-left: 10%;
 }
 #about div{
     padding: 2%;
-    width: 50%;
-    font-size: 1.5rem;
+    width: 30%;
+    font-size: 50;
     background-color: #FE4956;
 }
 
@@ -92,4 +92,4 @@ canvas {
          display: none;
      }
   }
-      
+    
