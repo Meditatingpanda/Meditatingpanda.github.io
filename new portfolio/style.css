@@ -10,7 +10,7 @@ body{
 }
 
 nav{
-    background-color: #212336;
+    background-color: #4CB8C4;
     grid-column: 1/11;
     height: 3em;
     display: flex;
@@ -19,7 +19,7 @@ nav{
 }
 nav span{
     font-size: 2rem;
-    color: #FE4956;
+    color: white;
 }
 nav a{
     text-decoration: none;
@@ -34,7 +34,7 @@ nav  li{
 header{
     width: auto;
     height: 100vh;
-    background-color:  #23263A;
+    background-color:  #4CB8C4;
     position: relative;
 }
 canvas {
@@ -55,20 +55,29 @@ canvas {
       grid-column: 2/6;
       grid-row: 4/9;
       font-size: 2rem;
+      margin-bottom: 4em;
   }
   #code{
       transform: scale(7);
       grid-column:7 ;
     grid-row-start: 6;
   }
+  
   .bio{
-      grid-row-start: 7;
+      grid-row-start: 8;
       grid-column: 2/13;
   }
   .bio >div{
-      background-color: #FE4956;
+      background-color: white;
       width: 5em;
       padding: 3px;
+     
+  }
+  .bio >div a{
+      text-decoration: none;
+      color: black;
+      font-weight: 900;
+
   }
   @media screen and (max-width:730px) {
       html{
@@ -82,4 +91,9 @@ canvas {
  #about{
      grid-row-start: 2;
  }
+}
+@media screen and (max-width:380px){
+    .bio{
+        grid-row-start: 7;
+    }
 }
