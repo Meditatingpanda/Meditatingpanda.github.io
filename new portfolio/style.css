@@ -21,6 +21,10 @@ nav{
   flex-direction: row-reverse;
  
 }
+.glow:hover{
+  box-shadow: 0 0 5px 5px lightgrey;
+  transition: 0.6s;
+}
 nav span{
     font-size: 2rem;
     color: white;
@@ -76,7 +80,7 @@ canvas {
       color: black;
       font-weight: 900;
 
-  }
+  }  
   @media screen and (max-width:730px) {
       html{
           font-size: 14px;
