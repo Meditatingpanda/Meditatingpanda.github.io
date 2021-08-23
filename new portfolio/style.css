@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 :root{
-    --bg-col:#4CB8C4;
+    --bg-col:black;
 }
 body{
     margin: 0;
@@ -59,7 +59,7 @@ canvas {
   
   .bio{
       grid-row-start: 8;
-      grid-column: 2/13;
+      grid-column:2/11;
   }
   .bio >div{
       background-color: white;
