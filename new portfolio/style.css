@@ -50,7 +50,7 @@ canvas {
       grid-template-rows: repeat(10,1fr);
   }
   #about{
-      grid-column: 1/6;
+      grid-column: 2/6;
       grid-row: 4/9;
       font-size: 2rem;
   }
@@ -58,6 +58,15 @@ canvas {
       transform: scale(6);
       grid-column:7 ;
     grid-row-start: 6;
+  }
+  .bio{
+      grid-row-start: 8;
+      grid-column: 2/8;
+  }
+  .bio >div{
+      background-color: #FE4956;
+      width: 5em;
+      padding: 3px;
   }
   @media screen and (max-width:730px) {
       html{
