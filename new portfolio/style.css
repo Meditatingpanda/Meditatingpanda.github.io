@@ -63,9 +63,13 @@ canvas {
   }
   .bio >div{
       background-color: white;
+      font-size: 3rem;
+       padding-left: 0.5em;
       width: 5em;
-      padding: 3px;
-     
+  }
+  .bio >div:hover{
+      box-shadow: 0 0 3px 2px lightgrey;
+      transition: 0.5s;
   }
   .bio >div a{
       text-decoration: none;
