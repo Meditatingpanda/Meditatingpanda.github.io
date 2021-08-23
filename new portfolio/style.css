@@ -2,6 +2,9 @@
 *{
     box-sizing: border-box;
 }
+:root{
+    --bg-col:#4CB8C4;
+}
 body{
     margin: 0;
     font-family: 'poppins',sans-serif;
@@ -10,7 +13,7 @@ body{
 }
 
 nav{
-    background-color: #4CB8C4;
+    background-color: var(--bg-col);
     grid-column: 1/11;
     /* height: 3em; */
     display: flex;
@@ -22,20 +25,10 @@ nav span{
     font-size: 2rem;
     color: white;
 }
-nav a{
-    text-decoration: none;
-}
-nav  li{
-    list-style: none;
-    font-size: 1.1rem;
-    padding: 3px;
-    display: inline-block;
-    color: white;
-}
 header{
     width: auto;
     height: 100vh;
-    background-color:  #4CB8C4;
+    background-color:  var(--bg-col);
     position: relative;
 }
 canvas {
