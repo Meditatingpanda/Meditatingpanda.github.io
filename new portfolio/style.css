@@ -10,15 +10,14 @@ body{
 }
 nav{
     background-color: #212336;
+    grid-column: 1/11;
     display: flex;
-    justify-content:space-between;
-    flex-direction: row-reverse;
-  
+  justify-content: space-between;
+ 
 }
 nav span{
     font-size: 2rem;
     color: #FE4956;
-    margin-right: 5%;
 }
 nav a{
     text-decoration: none;
@@ -32,42 +31,12 @@ nav  li{
 }
 header{
     width: auto;
-    height: auto;
+    height: 100vh;
     background-color:  #23263A;
     position: relative;
 }
-#about{
-    width: 60vw;
-    font-size: 2rem;
-    margin-left: 10%;
-}
-#about div{
-    padding: 2%;
-    width: 30%;
-    font-size: 50;
-    background-color: #FE4956;
-}
-
 canvas {
     display: block;
-    /* vertical-align: bottom; */
-  }
-  /* ---- tsparticles container ---- */
-  /* #tsparticles {
-    position: absolute;
-    
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-  } */
-  #code{
-      height: 500px;
-      width: 650px;
-      margin-top: 10%;
-     
-  }
-  #all{
-      display: flex;
   }
   #particles-js{
     position: absolute;
@@ -75,21 +44,31 @@ canvas {
     height: 100%;
     z-index: 10;
   }
-  /* .popup:hover{
-      animation: pop 0.5s ease-in-out forwards;
+  .container{
+      display: grid;
+      grid-template-columns: repeat(10,1fr);
+      grid-template-rows: repeat(10,1fr);
   }
-  @keyframes pop{
-      0%{
-          transform: scale(0);
-      }
-      100%{
-          transform: scale(1.2);
-      }
-  } */
-
-  @media screen and (max-width:1000px){
-     nav{
-         display: none;
-     }
+  #about{
+      grid-column: 1/6;
+      grid-row: 4/9;
+      font-size: 2rem;
   }
-    
+  #code{
+      transform: scale(6);
+      grid-column:7 ;
+    grid-row-start: 6;
+  }
+  @media screen and (max-width:730px) {
+      html{
+          font-size: 14px;
+      }
+  }
+  @media screen and (max-width:660px) {
+ nav ul{
+     display: none;
+ }
+ #about{
+     grid-row-start: 2;
+ }
+}
