@@ -59,6 +59,7 @@ canvas {
       transform: scale(7);
       grid-column:7 ;
     grid-row-start: 6;
+  
   }
   
   .bio{
@@ -92,6 +93,7 @@ canvas {
  }
  #about{
      grid-row-start: 2;
+   
  }
 }
 @media screen and (max-width:380px){
