@@ -41,6 +41,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 canvas {
     display: block;
