@@ -9,6 +9,7 @@ body{
     margin: 0;
     font-family: 'poppins',sans-serif;
     padding: 0;
+    overflow: hidden;
   
    
 }
