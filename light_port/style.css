@@ -34,7 +34,7 @@ nav span{
 }
 header{
     width: auto;
-    height: 100vh;
+    height: 100%;
     /* background-color:  var(--bg-col); */
     background-image: url(bg.svg);
     background-attachment: fixed;
